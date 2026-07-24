@@ -1,3 +1,8 @@
+class Solution {
+public:
+    void solveSudoku(vector<vector<char>>& board) {
+        backtrack(board);
+    }
 
 private:
     bool backtrack(vector<vector<char>>& board) {
