@@ -19,7 +19,7 @@ public:
             }
             // Right side is sorted
             else {
-                if (target > arr[mid] && target <= arr[end]) {
+                if (arr[mid]< target && arr[end]>=target) {
                     start = mid + 1; 
                 } else {
                     end = mid - 1; 
